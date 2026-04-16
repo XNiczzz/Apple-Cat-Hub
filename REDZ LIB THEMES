@@ -72,6 +72,24 @@ local Themes = {
     ["Transparency"] = 0.02
   },
 
+["RedFusion"] = {
+    ["Color Hub 1"] = Color3.fromRGB(20, 10, 10),
+    ["Color Hub 2"] = Color3.fromRGB(30, 20, 20),
+    ["Color Theme"] = Color3.fromRGB(255, 0, 0),
+    ["Color Text"] = Color3.fromRGB(255, 220, 220),
+    ["Color Dark Text"] = Color3.fromRGB(255, 150, 150),
+    ["Color Stroke"] = Color3.fromRGB(255, 50, 50),
+    ["Corner Radius"] = UDim.new(0, 8),
+    ["Font"] = {
+      Enum.Font.GothamBold,
+      Enum.Font.GothamSemibold,
+      Enum.Font.Gotham
+    },
+    ["Stroke Thickness"] = 2,
+    ["Tween Style"] = Enum.EasingStyle.Sine,
+    ["Transparency"] = 0.05
+},
+
   ["MckLib"] = {
     ["Color Hub 1"] = Color3.fromRGB(240, 240, 240),
     ["Color Hub 2"] = Color3.fromRGB(200, 200, 200),
