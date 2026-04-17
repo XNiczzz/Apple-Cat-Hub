@@ -1,5 +1,5 @@
 local Themes = {
-  ["Default"] = {
+  ["Dark"] = {
     ["Color Hub 1"] = Color3.fromRGB(18, 18, 18),
     ["Color Hub 2"] = Color3.fromRGB(25, 25, 25),
     ["Color Theme"] = Color3.fromRGB(30, 150, 240),
@@ -16,7 +16,7 @@ local Themes = {
     ["Tween Style"] = Enum.EasingStyle.Quad
   },
 
-  ["AstroXTeam"] = {
+  ["Crimson"] = {
     ["Color Hub 1"] = ColorSequence.new({
       ColorSequenceKeypoint.new(0.00, Color3.fromRGB(28, 23, 25)),
       ColorSequenceKeypoint.new(0.50, Color3.fromRGB(30, 30, 30)),
@@ -36,7 +36,7 @@ local Themes = {
     ["Tween Style"] = Enum.EasingStyle.Quad
   },
 
-  ["GreenFusion"] = {
+  ["Neon Green"] = {
     ["Color Hub 1"] = Color3.fromRGB(10, 20, 10),
     ["Color Hub 2"] = Color3.fromRGB(20, 30, 20),
     ["Color Theme"] = Color3.fromRGB(0, 255, 0),
@@ -54,7 +54,7 @@ local Themes = {
     ["Transparency"] = 0.05
   },
 
-  ["CartolLib"] = {
+  ["Dark Red"] = {
     ["Color Hub 1"] = Color3.fromRGB(10, 10, 10),
     ["Color Hub 2"] = Color3.fromRGB(20, 20, 20),
     ["Color Theme"] = Color3.fromRGB(200, 0, 0),
@@ -72,7 +72,7 @@ local Themes = {
     ["Transparency"] = 0.02
   },
 
-["RedFusion"] = {
+  ["Red"] = {
     ["Color Hub 1"] = Color3.fromRGB(20, 10, 10),
     ["Color Hub 2"] = Color3.fromRGB(30, 20, 20),
     ["Color Theme"] = Color3.fromRGB(255, 0, 0),
@@ -88,9 +88,9 @@ local Themes = {
     ["Stroke Thickness"] = 2,
     ["Tween Style"] = Enum.EasingStyle.Sine,
     ["Transparency"] = 0.05
-},
+  },
 
-  ["MckLib"] = {
+  ["Light"] = {
     ["Color Hub 1"] = Color3.fromRGB(240, 240, 240),
     ["Color Hub 2"] = Color3.fromRGB(200, 200, 200),
     ["Color Theme"] = Color3.fromRGB(0, 0, 0),
@@ -104,11 +104,11 @@ local Themes = {
       Enum.Font.GothamMedium
     },
     ["Stroke Thickness"] = 2,
-    ["Tween Style"] = Enum.EasingStyle.Quad,
+      ["Tween Style"] = Enum.EasingStyle.Quad,
     ["Transparency"] = 0.01
   },
 
-  ["SynLib"] = {
+  ["Purple"] = {
     ["Color Hub 1"] = Color3.fromRGB(35, 20, 40),
     ["Color Hub 2"] = Color3.fromRGB(50, 30, 60),
     ["Color Theme"] = Color3.fromRGB(200, 160, 255),
