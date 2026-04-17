@@ -16,26 +16,22 @@ local Themes = {
     ["Tween Style"] = Enum.EasingStyle.Quad
   },
 
-  ["Crimson"] = {
-    ["Color Hub 1"] = ColorSequence.new({
-      ColorSequenceKeypoint.new(0.00, Color3.fromRGB(28, 23, 25)),
-      ColorSequenceKeypoint.new(0.50, Color3.fromRGB(30, 30, 30)),
-      ColorSequenceKeypoint.new(1.00, Color3.fromRGB(28, 23, 25))
-    }),
-    ["Color Hub 2"] = Color3.fromRGB(28, 28, 28),
-    ["Color Theme"] = Color3.fromRGB(255, 0, 0),
-    ["Color Text"] = Color3.fromRGB(240, 240, 240),
-    ["Color Dark Text"] = Color3.fromRGB(180, 180, 180),
-    ["Corner Radius"] = UDim.new(0, 7),
-    ["Font"] = {
-      Enum.Font.GothamBlack,
-      Enum.Font.GothamBold,
-      Enum.Font.GothamMedium
-    },
-    ["Stroke Thickness"] = 1,
-    ["Tween Style"] = Enum.EasingStyle.Quad
+["Crimson"] = {
+  ["Color Hub 1"] = Color3.fromRGB(28, 23, 25),
+  ["Color Hub 2"] = Color3.fromRGB(28, 28, 28),
+  ["Color Theme"] = Color3.fromRGB(255, 0, 0),
+  ["Color Text"] = Color3.fromRGB(240, 240, 240),
+  ["Color Dark Text"] = Color3.fromRGB(180, 180, 180),
+  ["Color Stroke"] = Color3.fromRGB(120, 0, 0), -- ADICIONADO
+  ["Corner Radius"] = UDim.new(0, 7),
+  ["Font"] = {
+    Enum.Font.GothamBlack,
+    Enum.Font.GothamBold,
+    Enum.Font.GothamMedium
   },
-
+  ["Stroke Thickness"] = 1,
+  ["Tween Style"] = Enum.EasingStyle.Quad
+}
   ["Neon Green"] = {
     ["Color Hub 1"] = Color3.fromRGB(10, 20, 10),
     ["Color Hub 2"] = Color3.fromRGB(20, 30, 20),
