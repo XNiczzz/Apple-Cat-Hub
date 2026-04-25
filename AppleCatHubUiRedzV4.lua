@@ -602,7 +602,18 @@ function redzLib:MakeWindow(Configs)
     redzLib.Save.ScrollSize = MainScroll.Size.X.Offset
     SaveSenttigs("redz library V4.lua", redzLib.Save)
   end)
-  
+
+local Crown = Create("ImageLabel", Topbar, {
+    AnchorPoint = Vector2.new(0.3, 0.8),
+    BackgroundTransparency = 1,
+    BorderColor3 = Color3.fromRGB(0, 0, 0),
+    Rotation = -20,
+    Size = UDim2.new(0, 75, 0, 75),
+    Position = UDim2.new(0, 0, 0.1, 0),
+    Image = "rbxassetid://98154881579247",
+    ImageColor3 = Color3.fromRGB(255, 255, 255)
+})
+	
   local DialogBackground = insertTheme(AddConnection(Create("TextButton", MainFrame, {
     BackgroundTransparency = 0.5,
     Text = "",
